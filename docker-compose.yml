@@ -4,7 +4,7 @@ services:
   reverse-proxy:
     # The official latest docker image for Traefik
     image: traefik:latest
-    container_name: whoami
+    container_name: traefik
     ports:
       # The HTTP port
       - "80:80"
